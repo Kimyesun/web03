@@ -1,0 +1,158 @@
+/* styles.css */
+body {
+    margin: 0;
+    color: #818181;
+}
+.header {
+    margin: 0 auto;
+    width: 1920px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #1B4569;
+    justify-content: center;
+    gap: 100px;
+    color: white;
+}
+.nav>ul {
+    list-style: none;
+    align-items: center;
+    display: flex;
+    gap: 100px;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+}
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.header-sns {
+    display: flex;
+    gap: 10px;
+}
+.header-sns img{
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    background: #0F3452;
+    justify-content: center;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+.cards>.card>.ra {
+    font-family: Outfit;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16.38px;
+    letter-spacing: 3px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    gap: 10px;
+}
+.card {
+    margin: 146px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    text-align: center;
+    width: 495px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    
+}
+
+.card img {
+    border-radius: 20px;
+    width: 495px;
+    height: 320px;
+}
+
+.card h2 {
+    color: #272727;
+}
+
+.button {
+    margin: 68px;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    color: #F05526;
+    border: 1px solid #F05526;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.footer {
+    margin: 0 auto;
+    width: 1920px;
+    height: 755px;
+    background-color: #1B4569;
+    color: white;
+    text-align: center;
+}
+.sns {
+    width: 1920px;
+    height: 390px;
+    background: url(images/snsbg.png) no-repeat center;
+}
+.sns-list {
+    display: flex;
+    justify-content: center;
+    gap: 43px;
+}
+.sns-list img {
+    width: 60px;
+    height: 60px;
+}
+.footer .links a {
+    margin: 0 10px;
+    display: inline-block;
+}
+.sns h1 {
+    font-family: "Outfit", sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50.4px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    left: 50%;
+    top: 50%;
+    transform: translate(0%, 150%);
+}
+.sns h3 {
+    font-family: "Outfit", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    left: 50%;
+    top: 50%;
+    transform: translate(0%, 100%);
+}
+.sns>.sns-list {
+    left: 50%;
+    top: 50%;
+    transform: translate(0%, 90%);
+}
+.footer>.fon{
+    font-family: Pretendard Variable;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22.5px;
+    letter-spacing: -0.3799999952316284px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.footer p {
+    color: #E9A019;
+}
